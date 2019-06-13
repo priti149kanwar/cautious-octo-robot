@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+Void main()
+{
+     Int c, f;
+     Clrscr();
+     Printf("Enter temperature in fahrenheit:");
+     Scanf("%d",&f); 
+     C=5*(f-32)/9;
+     Printf("The temperature in centigrade scale is %d",c);
+     Getch();
+}
+And regarding vice versa same upto line 6 and then 
+     Printf("Enter temperature in centigrade");
+     Scanf("%d",&c); 
+     F=9*c/5+32;
+     Printf("The temperature in fahrenheit scale is %d",f) ;
+     Getch();
+}
